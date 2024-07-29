@@ -18,7 +18,7 @@ export const ContactsPage = (props) => {
     }
   }
   )
- }, [name]);
+ }, [name, props.contacts]);
 
  const [phone, setPhone] = useState('');
  const [email, setEmail] = useState('');

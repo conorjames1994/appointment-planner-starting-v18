@@ -41,7 +41,7 @@ export const AppointmentForm = (props, {
     return props.contacts.map((contact) => {
       return contact.name
     })
-  }, [contacts])
+  }, [props.contacts])
 
   return (
     <div>
